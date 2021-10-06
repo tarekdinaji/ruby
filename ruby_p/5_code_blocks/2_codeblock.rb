@@ -1,11 +1,11 @@
 #! /usr/bin/env ruby
 
-#Code blocks are block of code that is applied.
-#for loops anything between DO to END is a block
-#single line blocks are defiened by {}
-#multi line is usually start with DO and ends with an END
-#any variable declared within || is called a block variable
-#block variable is not accessible outside of the loop
+# Code blocks are block of code that is applied.
+# For loops anything between DO to END is a block
+# Single line blocks are defiened by {}
+# Multi line is usually start with DO and ends with an END
+# Any variable declared within || is called a block variable
+# Block variable is not accessible outside of the loop
 
 #Code blocks types
 
