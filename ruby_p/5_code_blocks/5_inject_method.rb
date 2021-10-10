@@ -1,4 +1,4 @@
-#! /usr/bin/env ruby
+#!/usr/bin/env ruby
 
 # Memo accumulate the value and remembers it for the next iteration 
 # and returns the value of memo in the end

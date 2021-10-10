@@ -1,4 +1,4 @@
-#! /usr/bin/env ruby
+#!/usr/bin/env ruby
 
 # Code blocks are block of code that is applied.
 # For loops anything between DO to END is a block

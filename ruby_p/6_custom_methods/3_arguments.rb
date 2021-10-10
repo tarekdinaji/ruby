@@ -1,4 +1,4 @@
-#! /usr/bin/env ruby
+#!/usr/bin/env ruby
 
 # Arguments allowes methods to receive values at runtime (when the method is called)
 # It is defiled comma-seperated within the bracket. (after the method name)

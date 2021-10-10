@@ -1,4 +1,4 @@
-#! /usr/bin/env ruby
+#!/usr/bin/env ruby
 
 # sort uses the comparison operation.
 # the comparison operator is <=>

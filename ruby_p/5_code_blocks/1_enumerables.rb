@@ -1,4 +1,4 @@
-#! /usr/bin/env ruby
+#!/usr/bin/env ruby
 
 #Enumerables are set of items that can be counted
 # Countable items
