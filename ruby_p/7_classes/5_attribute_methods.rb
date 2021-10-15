@@ -76,16 +76,18 @@ class Radio
   attr_reader :volume
 
   def volume=(value)
-    return if (value > 1 || value < 10)
+    return if (value < 1 || value > 10)
     @volume = value
   end
 
   def crank_it_up
     @volume = 11
+    #self.volume = 11 # here we are calling the volume method instead of setting value to the instance @volume
   end
 
   def volume_status
     "Current volume: #{@volume}"
+    # if we write it like "Current volume: #{volume}" it will call the attr_reader method instead. 
   end 
 end
 
@@ -93,3 +95,5 @@ newradio = Radio.new
 newradio.volume = 5
 puts newradio.volume_status
 
+# Ending note:
+# Use self to reference the current instance from code inside the instance

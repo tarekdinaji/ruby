@@ -2,11 +2,11 @@
 
 # Methods are the primary interface to a class
 # But we need to add control which one is accessible and which one is not. 
-# We define that using Method Access Control
-# There are several layers of MAC 
+# We define that using Method Access Control and there are several layers of MAC 
 #.. 1) Public (anyone can access: default) 2) protected (can only be called 
 #.. by instances of the class and it's subclasses) 3) Private: (can only be called by instances of a class)
-# 
+# Any methods of a class can access any other methods of that class regardless of the MAC configuration.
+#.. the private methods are just not accessible from outside. 
 # Example:
 =begin
 

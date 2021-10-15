@@ -5,17 +5,6 @@
 # There needs to be a different file usually named init.rb which will maintain the relationships between files
 # Go to the "Ruby_project/classes" folder for person.rb and init.rb 
 
-class Product 
-  def lifespan
-    product_year = "4 year"
-  end
-  def price
-    x = 6
-    
-  end
-
-end
-
 # to create an instance of the class Person we use the following
 #borkot = Person.new
 
